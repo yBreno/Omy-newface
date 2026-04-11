@@ -10,7 +10,7 @@ O projeto consiste em uma nova versão do site da OMY, com foco em:
 
 * Design moderno e elegante
 * Interface responsiva
-* Experiência visual premium (dark + gold)
+* Experiência visual atualziada (dark + gold)
 
 ---
 
