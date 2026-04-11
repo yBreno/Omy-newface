@@ -1,0 +1,252 @@
+body {
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+/* Fonte */
+.cardo-regular {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* N avbar */
+.navbar {
+  border-bottom: 1px solid #2a2a2a;
+}
+
+.nav-link {
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #d4af37 !important;
+}
+
+/* Botões */
+.btn-gold {
+  background-color: #d4af37;
+  color: black;
+  padding: 8px 18px;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.btn-gold:hover {
+  background-color: #b8962e;
+  color: black;
+}
+
+.btn-outline-gold {
+  border: 1px solid #d4af37;
+  color: #d4af37;
+  padding: 10px 20px;
+  transition: 0.3s;
+}
+
+.btn-outline-gold:hover {
+  background-color: #d4af37;
+  color: black;
+}
+
+/* HERO */
+.hero {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* fontes */
+#hero h1,
+#hero h2 {
+  font-family: "Cardo", serif;
+  font-weight: 1000;
+  font-size: 60px;
+}
+
+.carousel-item img {
+  height: 100vh;
+  object-fit: cover;
+  filter: brightness(0.5);
+}
+
+/* overlay das fotos no hero */
+.hero::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.2)
+  );
+  z-index: 1;
+}
+
+/* texto */
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  color: white;
+  z-index: 2;
+  max-width: 500px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero-content p {
+  margin: 20px 0;
+  color: #ccc;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+
+.gold {
+  color: #d4af37;
+}
+
+/* Containers */
+.collection {
+  background-color: #111;
+}
+
+.title {
+  color: #d4af37;
+  font-size: 2.5rem;
+}
+
+.subtitle {
+  color: #aaa;
+}
+
+.collection-card img {
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.collection-card:hover img {
+  transform: scale(1.05);
+}
+
+.collection-card h4 {
+  font-weight: 600;
+}
+
+.collection-card p {
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+/* Sobre a loja */
+.about {
+  background-color: #000;
+}
+
+.about p {
+  color: #aaa;
+}
+
+/* Accordion */
+#faq {
+  background-color: #000;
+  color: white;
+}
+
+#faq h2 {
+  color: #d4af37;
+  font-family: "Cardo", serif;
+}
+
+/* accordion */
+.accordion-item {
+  background-color: transparent;
+  border: 1px solid #222;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.accordion-button {
+  background-color: #111;
+  color: white;
+  font-weight: 500;
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed),
+.accordion-button:hover {
+  background-color: #1a1a1a;
+  color: #d4af37;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-body {
+  background-color: #0d0d0d;
+  color: #bbb;
+  line-height: 1.6;
+}
+
+.accordion-button::after {
+  filter: invert(1);
+}
+
+/* Modal */
+.modal-content {
+  border: 1px solid #333;
+  border-radius: 8px;
+}
+
+.modal-title {
+  color: #d4af37;
+}
+
+.form-control {
+  background-color: #111;
+  border: 1px solid #333;
+  color: white;
+}
+
+.form-control:focus {
+  border-color: #d4af37;
+  box-shadow: none;
+}
+
+/* Rodape */
+.footer {
+  background-color: #000;
+  color: #aaa;
+}
+
+.footer h4,
+.footer h5 {
+  color: #d4af37;
+}
+
+.footer a {
+  color: #aaa;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer a:hover {
+  color: #d4af37;
+}
+
+.footer hr {
+  border-color: #222;
+}
