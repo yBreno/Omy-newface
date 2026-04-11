@@ -1,4 +1,4 @@
-# 💎 OMY Newface
+# OMY Newface
 
 Projeto desenvolvido para a disciplina de **Introdução ao Desenvolvimento Front-End**, com o objetivo de recriar e modernizar a identidade visual de um site utilizando **Bootstrap 5**.
 
