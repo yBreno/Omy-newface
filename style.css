@@ -226,6 +226,11 @@ body {
   box-shadow: none;
 }
 
+.form-control::placeholder{
+  color: white;
+  opacity: 40%;
+}
+
 /* Rodape */
 .footer {
   background-color: #000;
